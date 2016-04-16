@@ -1,1 +1,1 @@
-Acesta este grupa de T.W. Artifacty
+Aceasta este grupa de T.W. Artifacty
