@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="../dropdownscript.js"></script>
+<link href="../navbar.css" rel="stylesheet" type ="text/css"/>
+<link href="../footer.css" rel="stylesheet" type ="text/css"/>
+<link href="login.css" rel="stylesheet" type ="text/css"/>
+<title>Artifacty</title>
+</head>
+<body>
+		<nav>
+			<ul>
+				<li class="dropdown">
+				    <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">=</a>
+				    <div class="dropdown-content" id="myDropdown">
+				      <a href="../Index/index.html">Home</a>
+				      <a href="#">Artefact</a>
+				      <a href="#">Family</a>
+				      <a href="#">Map</a>
+				    </div>
+	  			</li>
+		  		<li class ="item"><a class="active" href="#home">Home</a></li>
+		  		<li class ="item"><a href="#news">Artefact</a></li>
+				  <li class ="item"><a href="#contact">Family</a></li>
+				  <li class ="item"><a href="#about">Map</a></li>
+				  <li style = "float:right"><input class = "search" type="search" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search...'" name="Search"
+				  placeholder = "Search..." /></li>
+			</ul>
+		</nav>
+	<div class ="content">
+	    <form>
+  Username:<br>
+  <input type="text" name="user">
+  <br>
+  Password:<br>
+  <input type="password" name="pwd"><br>
+  <input type="submit" value="Login">
+</form>
+	</div>
+	<div class="footer">
+	<h3 class ="footerText">Artifacty Team</h3>
+  	<h3 class ="copyright">FII@2016</h3>
+	</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.footer{
+    font-family: "Arial";
+    width: 95%;
+    padding: 10px;
+    margin: 8px auto;
+    background-color: rgb(130, 128, 120);
+    font-size:calc(50% + 0.6vw);
+   
+}
+.footer .footerText{
+    float: left;
+     color: rgb(255,215,0); 
+     font-family: 'Open Sans', sans-serif; 
+     font-size: 100%;
+     font-weight: 300; 
+     line-height: 32px; 
+     margin: 0 0 14px;
+ 
+}
+.footer .copyright{
+     padding-left: 85%;
+     color: rgb(255,215,0); 
+     font-family: 'Open Sans', sans-serif; 
+     font-size: 100%;
+     font-weight: 300; 
+     line-height: 32px; 
+     margin: 0 0 14px;
+}
